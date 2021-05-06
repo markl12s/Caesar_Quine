@@ -12,3 +12,5 @@ def caesar_quine():
         encrypted_msg[e] = bin(encrypted_msg[e])
 
     print(' '.join(encrypted_msg))
+
+caesar_quine()
